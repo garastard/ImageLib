@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ImageLib" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/secondary_40</item>
+        <item name="colorOnPrimary">@color/neutral_100</item>
+        <item name="colorPrimaryContainer">@color/secondary_90</item>
+        <item name="colorOnPrimaryContainer">@color/secondary_10</item>
+        <item name="android:colorBackground">@color/neutral_99</item>
+        <item name="colorSurface">@color/neutral_100</item>
+        <item name="colorOnSurface">@color/neutral_10</item>
+        <item name="colorError">@color/error_40</item>
+
+        <item name="android:statusBarColor">@color/neutral_100</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

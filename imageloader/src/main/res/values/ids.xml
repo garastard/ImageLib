@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tag slot used to bind the in-flight request to a view so it can be
+         cancelled when the view is recycled (RecyclerView). -->
+    <item name="imageloader_request_tag" type="id" />
+</resources>

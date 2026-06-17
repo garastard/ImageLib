@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single large-viewport vector so centerCrop scales the whole canvas
+     uniformly: the glyph stays small, centered and never clipped. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <path
+        android:fillColor="@color/error_90"
+        android:pathData="M0,0 H120 V120 H0 Z" />
+
+    <group
+        android:translateX="48"
+        android:translateY="48">
+        <path
+            android:fillColor="@color/error_80"
+            android:fillType="evenOdd"
+            android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM13,17h-2v-2h2v2zM13,13h-2L11,7h2v6z" />
+    </group>
+</vector>

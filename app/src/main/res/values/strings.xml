@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImageLib</string>
+    <string name="title_images">Images</string>
+    <string name="action_invalidate_cache">Invalidate cache</string>
+    <string name="action_retry">Retry</string>
+    <string name="cache_invalidated">Cache invalidated</string>
+    <string name="error_loading_list">Failed to load image list</string>
+    <string name="image_id">ID: %1$d</string>
+    <string name="cd_image">Loaded image</string>
+</resources>
